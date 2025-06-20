@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: invoice-dashboard
-    runtime: python
-    buildCommand: ""
-    startCommand: streamlit run dashboard/app.py --server.port=10000
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.10
